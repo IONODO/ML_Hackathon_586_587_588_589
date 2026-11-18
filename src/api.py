@@ -31,7 +31,7 @@ def load_eval_trip(tid):
 
 # load pre-trained model (no retraining at startup)
 import joblib
-MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "artifacts", "rf.joblib")
+MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "artifacts", "rf_full.joblib")
 t0 = time.time()
 try:
     model = joblib.load(MODEL_PATH)
