@@ -1,0 +1,8 @@
+search rows 161749 trips 80
+trial 0 top1=0.8889 {'n_estimators': 40, 'max_depth': 12, 'min_samples_leaf': 20, 'max_features': 0.186, 'max_samples': 1.0}
+trial 1 top1=0.8860 {'n_estimators': 60, 'max_depth': 24, 'min_samples_leaf': 37, 'max_features': 0.47926216630837004, 'max_samples': 0.4936111842654619}
+trial 2 top1=0.8845 {'n_estimators': 40, 'max_depth': 7, 'min_samples_leaf': 61, 'max_features': 0.48061325645876485, 'max_samples': 0.8248435466776274}
+trial 3 top1=0.8822 {'n_estimators': 30, 'max_depth': 24, 'min_samples_leaf': 54, 'max_features': 0.2667865108730519, 'max_samples': 0.5090949803242604}
+trial 4 top1=0.8882 {'n_estimators': 40, 'max_depth': 11, 'min_samples_leaf': 17, 'max_features': 0.38756976025316364, 'max_samples': 0.5747374841188252}
+trial 5 top1=0.8902 {'n_estimators': 90, 'max_depth': 8, 'min_samples_leaf': 7, 'max_features': 0.35149901381153037, 'max_samples': 0.6736419905302216}
+trial 6 top1=0.8882 {'n_estimators': 100, 'max_depth': 9, 'min_samples_leaf': 17, 'max_features': 0.47582801287412335, 'max_samples': 0.42787024763199866}

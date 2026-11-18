@@ -1,0 +1,14 @@
+{
+  "best_params": {
+    "n_estimators": 60,
+    "max_depth": 22,
+    "min_samples_leaf": 3,
+    "max_features": 0.6010721745001487,
+    "max_samples": 0.8897224957946921
+  },
+  "best_cv_top1": 0.8999760562252669,
+  "n_trials": 12,
+  "total_runtime_s": 585.2016303539276,
+  "sampler": "TPE(seed=42, 8 random startup)",
+  "objective": "mean 3-fold group-CV observation-level Top-1 on 80 train trips (3x thinner obs sample)"
+}
