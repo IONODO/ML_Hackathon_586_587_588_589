@@ -1,0 +1,23 @@
+train rows 483885 obs 37272 | student rows 290823
+== LogReg
+  fold 0 {'accuracy': 0.9707, 'precision': 0.8441, 'recall': 0.8351, 'f1_pos': 0.8396, 'macro_f1': 0.9117, 'log_loss': 0.087, 'top1': np.float64(0.8788)}
+  fold 1 {'accuracy': 0.9806, 'precision': 0.8404, 'recall': 0.8997, 'f1_pos': 0.8691, 'macro_f1': 0.9293, 'log_loss': 0.058, 'top1': np.float64(0.9254)}
+  fold 2 {'accuracy': 0.9782, 'precision': 0.8409, 'recall': 0.8272, 'f1_pos': 0.834, 'macro_f1': 0.9112, 'log_loss': 0.0636, 'top1': np.float64(0.8746)}
+  fold 3 {'accuracy': 0.9777, 'precision': 0.8594, 'recall': 0.8248, 'f1_pos': 0.8418, 'macro_f1': 0.9149, 'log_loss': 0.0654, 'top1': np.float64(0.8875)}
+  fold 4 {'accuracy': 0.9722, 'precision': 0.8447, 'recall': 0.8183, 'f1_pos': 0.8313, 'macro_f1': 0.9081, 'log_loss': 0.0951, 'top1': np.float64(0.8513)}
+  STUDENT {'st_accuracy': 0.9792, 'st_precision': 0.837, 'st_recall': 0.8497, 'st_f1_pos': 0.8433, 'st_macro_f1': 0.9161, 'st_log_loss': 0.0583, 'st_top1': 0.8758, 'st_top1_macro_trip': 0.8866, 'st_cont_strict': 0.9202, 'st_cont_relaxed': 0.9689, 'st_lcs_f1': 0.722, 'st_len_f1': 0.9252, 'train_time_s': 1.3912, 'infer_time_ms_per_obs': 0.003, 'cv_wall_s': 5.8386}
+== GaussianNB
+  fold 0 {'accuracy': 0.9256, 'precision': 0.561, 'recall': 0.8723, 'f1_pos': 0.6828, 'macro_f1': 0.8204, 'log_loss': 0.6236, 'top1': np.float64(0.845)}
+  fold 1 {'accuracy': 0.9313, 'precision': 0.5109, 'recall': 0.9353, 'f1_pos': 0.6608, 'macro_f1': 0.8113, 'log_loss': 0.5511, 'top1': np.float64(0.8816)}
+  fold 2 {'accuracy': 0.9365, 'precision': 0.5112, 'recall': 0.8861, 'f1_pos': 0.6484, 'macro_f1': 0.8067, 'log_loss': 0.5027, 'top1': np.float64(0.8449)}
+  fold 3 {'accuracy': 0.9379, 'precision': 0.5442, 'recall': 0.8325, 'f1_pos': 0.6582, 'macro_f1': 0.812, 'log_loss': 0.4972, 'top1': np.float64(0.8321)}
+  fold 4 {'accuracy': 0.9339, 'precision': 0.5716, 'recall': 0.8401, 'f1_pos': 0.6803, 'macro_f1': 0.8217, 'log_loss': 0.6014, 'top1': np.float64(0.8284)}
+  STUDENT {'st_accuracy': 0.9347, 'st_precision': 0.5023, 'st_recall': 0.9048, 'st_f1_pos': 0.646, 'st_macro_f1': 0.805, 'st_log_loss': 0.5415, 'st_top1': 0.8152, 'st_top1_macro_trip': 0.8355, 'st_cont_strict': 0.9116, 'st_cont_relaxed': 0.968, 'st_lcs_f1': 0.6983, 'st_len_f1': 0.8795, 'train_time_s': 0.3261, 'infer_time_ms_per_obs': 0.0059, 'cv_wall_s': 1.9599}
+== KNN
+  fold 0 {'accuracy': 0.9675, 'precision': 0.8643, 'recall': 0.7659, 'f1_pos': 0.8122, 'macro_f1': 0.8972, 'log_loss': 0.1092, 'top1': np.float64(0.8442)}
+  fold 1 {'accuracy': 0.9774, 'precision': 0.8667, 'recall': 0.8079, 'f1_pos': 0.8363, 'macro_f1': 0.9121, 'log_loss': 0.0656, 'top1': np.float64(0.8871)}
+  fold 2 {'accuracy': 0.9764, 'precision': 0.8616, 'recall': 0.766, 'f1_pos': 0.811, 'macro_f1': 0.8992, 'log_loss': 0.0755, 'top1': np.float64(0.8461)}
+  fold 3 {'accuracy': 0.9713, 'precision': 0.8653, 'recall': 0.7113, 'f1_pos': 0.7808, 'macro_f1': 0.8827, 'log_loss': 0.0831, 'top1': np.float64(0.839)}
+  fold 4 {'accuracy': 0.9667, 'precision': 0.841, 'recall': 0.7433, 'f1_pos': 0.7891, 'macro_f1': 0.8855, 'log_loss': 0.1188, 'top1': np.float64(0.8212)}
+  STUDENT {'st_accuracy': 0.9774, 'st_precision': 0.8605, 'st_recall': 0.7832, 'st_f1_pos': 0.82, 'st_macro_f1': 0.904, 'st_log_loss': 0.0707, 'st_top1': 0.8506, 'st_top1_macro_trip': 0.859, 'st_cont_strict': 0.9164, 'st_cont_relaxed': 0.9638, 'st_lcs_f1': 0.7291, 'st_len_f1': 0.9132, 'train_time_s': 0.0309, 'infer_time_ms_per_obs': 3.6382, 'cv_wall_s': 95.7907}
+== RandomForest

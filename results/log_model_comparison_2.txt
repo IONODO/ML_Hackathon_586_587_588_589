@@ -1,0 +1,29 @@
+train rows 483885 obs 37272 | student rows 290823
+== RandomForest
+  fold 0 {'accuracy': 0.9793, 'precision': 0.9295, 'recall': 0.8382, 'f1_pos': 0.8815, 'macro_f1': 0.9351, 'log_loss': 0.0517, 'top1': np.float64(0.8897)}
+  fold 1 {'accuracy': 0.9899, 'precision': 0.9608, 'recall': 0.8949, 'f1_pos': 0.9267, 'macro_f1': 0.9606, 'log_loss': 0.0287, 'top1': np.float64(0.9363)}
+  fold 2 {'accuracy': 0.9841, 'precision': 0.9154, 'recall': 0.8364, 'f1_pos': 0.8741, 'macro_f1': 0.9328, 'log_loss': 0.0413, 'top1': np.float64(0.8846)}
+  fold 3 {'accuracy': 0.9835, 'precision': 0.9367, 'recall': 0.8258, 'f1_pos': 0.8778, 'macro_f1': 0.9345, 'log_loss': 0.0454, 'top1': np.float64(0.8908)}
+  fold 4 {'accuracy': 0.978, 'precision': 0.9137, 'recall': 0.8147, 'f1_pos': 0.8614, 'macro_f1': 0.9247, 'log_loss': 0.0646, 'top1': np.float64(0.8614)}
+  STUDENT {'st_accuracy': 0.9852, 'st_precision': 0.9208, 'st_recall': 0.8482, 'st_f1_pos': 0.883, 'st_macro_f1': 0.9376, 'st_log_loss': 0.0376, 'st_top1': 0.8911, 'st_top1_macro_trip': 0.901, 'st_cont_strict': 0.9284, 'st_cont_relaxed': 0.9708, 'st_lcs_f1': 0.7376, 'st_len_f1': 0.9336, 'train_time_s': 22.2021, 'infer_time_ms_per_obs': 0.023, 'cv_wall_s': 94.393}
+== LightGBM
+  fold 0 {'accuracy': 0.9783, 'precision': 0.8932, 'recall': 0.8675, 'f1_pos': 0.8802, 'macro_f1': 0.9341, 'log_loss': 0.0715, 'top1': np.float64(0.883)}
+  fold 1 {'accuracy': 0.9893, 'precision': 0.933, 'recall': 0.916, 'f1_pos': 0.9245, 'macro_f1': 0.9593, 'log_loss': 0.0389, 'top1': np.float64(0.9272)}
+  fold 2 {'accuracy': 0.9842, 'precision': 0.8801, 'recall': 0.8809, 'f1_pos': 0.8805, 'macro_f1': 0.936, 'log_loss': 0.0528, 'top1': np.float64(0.882)}
+  fold 3 {'accuracy': 0.9823, 'precision': 0.8928, 'recall': 0.8559, 'f1_pos': 0.874, 'macro_f1': 0.9322, 'log_loss': 0.0611, 'top1': np.float64(0.8819)}
+  fold 4 {'accuracy': 0.9777, 'precision': 0.8727, 'recall': 0.8598, 'f1_pos': 0.8662, 'macro_f1': 0.927, 'log_loss': 0.0784, 'top1': np.float64(0.8631)}
+  STUDENT {'st_accuracy': 0.9847, 'st_precision': 0.885, 'st_recall': 0.8822, 'st_f1_pos': 0.8836, 'st_macro_f1': 0.9377, 'st_log_loss': 0.0543, 'st_top1': 0.8824, 'st_top1_macro_trip': 0.8935, 'st_cont_strict': 0.9016, 'st_cont_relaxed': 0.9491, 'st_lcs_f1': 0.7209, 'st_len_f1': 0.9086, 'train_time_s': 7.8817, 'infer_time_ms_per_obs': 0.0642, 'cv_wall_s': 35.6604}
+== MLP
+  fold 0 {'accuracy': 0.9779, 'precision': 0.8944, 'recall': 0.861, 'f1_pos': 0.8774, 'macro_f1': 0.9326, 'log_loss': 0.0603, 'top1': np.float64(0.8864)}
+  fold 1 {'accuracy': 0.9884, 'precision': 0.9347, 'recall': 0.9001, 'f1_pos': 0.9171, 'macro_f1': 0.9554, 'log_loss': 0.0338, 'top1': np.float64(0.9308)}
+  fold 2 {'accuracy': 0.9827, 'precision': 0.8833, 'recall': 0.8512, 'f1_pos': 0.867, 'macro_f1': 0.9289, 'log_loss': 0.0471, 'top1': np.float64(0.8803)}
+  fold 3 {'accuracy': 0.9809, 'precision': 0.9223, 'recall': 0.8011, 'f1_pos': 0.8574, 'macro_f1': 0.9236, 'log_loss': 0.0529, 'top1': np.float64(0.8926)}
+  fold 4 {'accuracy': 0.9743, 'precision': 0.842, 'recall': 0.8539, 'f1_pos': 0.8479, 'macro_f1': 0.9169, 'log_loss': 0.0752, 'top1': np.float64(0.8529)}
+  STUDENT {'st_accuracy': 0.985, 'st_precision': 0.9071, 'st_recall': 0.8603, 'st_f1_pos': 0.8831, 'st_macro_f1': 0.9375, 'st_log_loss': 0.0399, 'st_top1': 0.8982, 'st_top1_macro_trip': 0.9035, 'st_cont_strict': 0.9329, 'st_cont_relaxed': 0.9727, 'st_lcs_f1': 0.7528, 'st_len_f1': 0.9382, 'train_time_s': 15.1046, 'infer_time_ms_per_obs': 0.0051, 'cv_wall_s': 61.8036}
+== LinearSVM
+  fold 0 {'accuracy': 0.9693, 'precision': 0.8394, 'recall': 0.8225, 'f1_pos': 0.8308, 'macro_f1': 0.907, 'log_loss': 0.0889, 'top1': np.float64(0.8797)}
+  fold 1 {'accuracy': 0.9803, 'precision': 0.846, 'recall': 0.8853, 'f1_pos': 0.8652, 'macro_f1': 0.9273, 'log_loss': 0.065, 'top1': np.float64(0.9266)}
+  fold 2 {'accuracy': 0.9777, 'precision': 0.8433, 'recall': 0.8143, 'f1_pos': 0.8286, 'macro_f1': 0.9083, 'log_loss': 0.0679, 'top1': np.float64(0.8772)}
+  fold 3 {'accuracy': 0.9759, 'precision': 0.8504, 'recall': 0.807, 'f1_pos': 0.8282, 'macro_f1': 0.9076, 'log_loss': 0.0673, 'top1': np.float64(0.8893)}
+  fold 4 {'accuracy': 0.9724, 'precision': 0.8519, 'recall': 0.8114, 'f1_pos': 0.8311, 'macro_f1': 0.9081, 'log_loss': 0.0933, 'top1': np.float64(0.8533)}
+  STUDENT {'st_accuracy': 0.9796, 'st_precision': 0.8503, 'st_recall': 0.8374, 'st_f1_pos': 0.8438, 'st_macro_f1': 0.9164, 'st_log_loss': 0.0619, 'st_top1': 0.8778, 'st_top1_macro_trip': 0.8877, 'st_cont_strict': 0.9229, 'st_cont_relaxed': 0.9697, 'st_lcs_f1': 0.7284, 'st_len_f1': 0.9301, 'train_time_s': 5.8489, 'infer_time_ms_per_obs': 0.0081, 'cv_wall_s': 25.6131}
