@@ -1,4 +1,4 @@
-# PathSnap (work in progress) - code bundle
+# PathSnap 
 
 Python 3.12. Install:
     pip install numpy pandas scipy scikit-learn lightgbm optuna shapely pyproj networkx folium fastapi uvicorn matplotlib
